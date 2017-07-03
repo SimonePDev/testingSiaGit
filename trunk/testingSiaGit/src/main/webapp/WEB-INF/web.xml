@@ -4,4 +4,5 @@
 
 <web-app>
   <display-name>testingSiaGit</display-name>
+  <description>un piccolo progetto maven per testare git</description>
 </web-app>
