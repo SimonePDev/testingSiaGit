@@ -3,6 +3,18 @@
  "http://java.sun.com/dtd/web-app_2_3.dtd" >
 
 <web-app>
-  <display-name>testingSiaGit</display-name>
-  <description>prova di modifica della descrizione su master</description>
+	<display-name>testingSiaGit</display-name>
+	<description>prova di modifica della descrizione su master</description>
+  
+	 <servlet>
+		<servlet-name>Faces Servlet</servlet-name>
+		<servlet-class>javax.faces.webapp.FacesServlet</servlet-class>
+		<load-on-startup>1</load-on-startup>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>Faces Servlet</servlet-name>
+		<url-pattern>/faces/*</url-pattern>
+	</servlet-mapping>
+  
 </web-app>
